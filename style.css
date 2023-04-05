@@ -90,6 +90,12 @@ a {
     color: darkgray
 }
 
+.error {
+    margin-bottom: 10x;
+    color: #cb4545;
+    text-align: center;
+}
+
 a:hover {
     cursor: pointer;
     color: #ffc107;
