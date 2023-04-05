@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
-    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="login-container">
         <img src="avatar.png" alt="avatar"  class="avatar">
         <h1>Welcome back</h1>
-        <form id="form" action="httpbin.org/post" method=""POST>
+        <form action="httpbin.org/post" method=""POST>
             <label for="username">Username</label>
             <input type="text" id="username" name="username" placeholder="Enter username" required>
             <label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter password" required>
-            <input type="submit" id="login" name="login" value="Login">
-            <div class="error"></div>
+            <input type="submit" name="login" value="Login">
             <a href="#" target="_blank">Forgot your password?</a>
             <br>
             <a href="#" target="_blank">Don't have an account?</a>
